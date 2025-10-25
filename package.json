@@ -1,0 +1,24 @@
+{
+  "name": "eslint-plugin-require-relative-imports",
+  "version": "1.0.0",
+  "description": "An ESLint plugin to enforce relative imports within a project.",
+  "license":"MIT",
+  "repository": "briemens/eslint-plugin-require-relative-imports",
+  "author": {
+    "name": "Bart Riemens",
+    "email": "briemens@crafity.com",
+    "url": "https://crafity.com" 
+  },
+  "main": "index.js",
+  "private": false,
+  "sideEffects": false,
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": ["index.js"],
+  "scripts": {},
+  "keywords": ["eslint", "eslint-plugin", "imports", "relative-imports"],
+	"peerDependencies": {
+		"eslint": ">=8.56.0"
+	}
+}
